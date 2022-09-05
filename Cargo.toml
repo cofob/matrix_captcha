@@ -1,0 +1,15 @@
+[package]
+name = "PKGNAME"
+version = "0.1.0"
+edition = "2021"
+authors = ["Egor Ternovoy <cofob@riseup.net>"]
+readme = "README.md"
+
+[dependencies]
+
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 'z'
+lto = true
+
