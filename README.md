@@ -1,2 +1,2 @@
-# rust_template
+# Matrix captcha bot
 
